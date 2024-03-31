@@ -2,6 +2,7 @@ package net.noldor.thaumcraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.noldor.thaumcraft.items.ModeItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +13,6 @@ public class Thaumcraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-		LOGGER.info("Hello Fabric world!");
+		ModeItems.registerModItems();
 	}
 }
