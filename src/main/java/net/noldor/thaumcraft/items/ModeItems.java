@@ -7,9 +7,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.noldor.thaumcraft.Thaumcraft;
+import net.noldor.thaumcraft.custom.AnimatedItem;
 
 public class ModeItems {
-    public static final Item BOOK = registerItem("book", new Item(new FabricItemSettings()));
+    public static final Item THAUMONOMICON = registerItem("thaumonomicon", new AnimatedItem(new FabricItemSettings()));
 
 
 
